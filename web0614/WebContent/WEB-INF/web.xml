@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>cn.cnstrong.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>cn.cnstrong.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>cn.cnstrong.servlet.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcessUpload</servlet-name>
+    <servlet-class>cn.cnstrong.servlet.ProcessUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuthImageServlet</servlet-name>
+    <servlet-class>cn.cnstrong.servlet.AuthImageServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ExcelServlet</servlet-name>
+    <servlet-class>cn.cnstrong.servlet.ExcelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/BookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProcessUpload</servlet-name>
+    <url-pattern>/processUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthImageServlet</servlet-name>
+    <url-pattern>/authImageServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>ExcelServlet</servlet-name>
+    <url-pattern>/excelServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
